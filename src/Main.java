@@ -35,5 +35,11 @@ public class Main {
                 System.out.println("Полугодие " + monthNumber / 6 + " сумма " + total);
             }
         }
+        //task 4
+        int firstFridayOfMonth = 4;
+        while (firstFridayOfMonth < 31) {
+            System.out.println("Сегодня пятница, " + firstFridayOfMonth + "-е число. Необходимо подготовить отчет.");
+            firstFridayOfMonth += 7;
+        }
     }
 }
