@@ -40,6 +40,7 @@ public class Main {
         while (firstFridayOfMonth < 31) {
             System.out.println("Сегодня пятница, " + firstFridayOfMonth + "-е число. Необходимо подготовить отчет.");
             firstFridayOfMonth += 7;
+
         }
     }
 }
